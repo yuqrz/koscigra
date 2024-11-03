@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="F5F5DC">
+    android:background="#F5F5DC">
 
 
 
@@ -60,6 +60,58 @@
         android:layout_marginBottom="10dp"
         android:background="#D2691E"
         android:text="Resetuj wynik"/>
+
+    <TextView
+        android:id="@+id/ksc1"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/ksc2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/ksc3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/ksc4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/ksc5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="9dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+
 
 
 </LinearLayout>
