@@ -8,26 +8,85 @@
     android:background="#F5F5DC">
 
 
-
     <TextView
         android:id="@+id/grra"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:textColor="@android:color/white"
         android:background="#A52A2A"
         android:text="Gra w kości. Julia Banasik"
-        android:textSize="25dp"/>
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
 
     <Button
         android:id="@+id/koscibutton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:background="#D2691E"
-        android:text="Rzuć kośćmi"/>
+        android:text="Rzuć kośćmi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ksc1"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/ksc2"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/ksc3"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/ksc4"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/ksc5"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/wyniklosowania"
@@ -54,64 +113,11 @@
 
     <Button
         android:id="@+id/buttonreset"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:background="#D2691E"
-        android:text="Resetuj wynik"/>
-
-    <TextView
-        android:id="@+id/ksc1"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_margin="9dp"
-        android:layout_weight="1"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="25dp"/>
-
-    <TextView
-        android:id="@+id/ksc2"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_margin="9dp"
-        android:layout_weight="1"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="25dp"/>
-
-    <TextView
-        android:id="@+id/ksc3"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_margin="9dp"
-        android:layout_weight="1"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="25dp"/>
-
-    <TextView
-        android:id="@+id/ksc4"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_margin="9dp"
-        android:layout_weight="1"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="25dp"/>
-
-    <TextView
-        android:id="@+id/ksc5"
-        android:layout_width="0dp"
-        android:layout_height="60dp"
-        android:layout_margin="9dp"
-        android:layout_weight="1"
-        android:background="#FFFFFF"
-        android:gravity="center"
-        android:textSize="25dp"/>
-
-
-
+        android:text="Resetuj wynik" />
 
 </LinearLayout>
